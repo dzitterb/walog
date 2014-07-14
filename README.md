@@ -1,10 +1,14 @@
 walog
 =====
-
 Walog is used to log observations of Cetaceans in the Oceans on FS Polarstern
-It is released under GPL v3.
 It was developed since 2009 by Daniel P. Zitterbart and Lars Kindermann
-It has been tested with MATLAB 2007-2014A
+It has been tested with MATLAB 2007-2014A under Windows operating system
+If you find this software useful and use it in scientific publications please cite as follows:
+
+Zitterbart DP., Kindermann L., Burkhardt E., Boebel O.
+Walog, a software tool for opportunistic marine mammal observations
+DOI
+
 You have to add email addresses and server settings in walog_send_email.m if you want to use the software.
 If you want to use the software scientifically, please contact us for possible collaborations in data usage.
 
@@ -17,6 +21,7 @@ Bombosch A., Zitterbart DP., van Opzeeland IC., Frickenhaus S., Wisz MS, Boebel 
 Predictive habitat modelling of humpback (Megaptera novaeangliae) and antarctic minke (Balaenoptera bonaerensis) Whales in the southern ocean as a planning tool for seismic surveys
 Deep Sea Research I, 2014, doi: 10.1016/j.dsr.2014.05.017
 
+Walog is released under GPL v3.
  Walog is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
