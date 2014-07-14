@@ -7,7 +7,7 @@ If you find this software useful and use it in scientific publications please ci
 
 Zitterbart DP., Kindermann L., Burkhardt E., Boebel O.
 Walog, a software tool for opportunistic marine mammal observations
-DOI
+DOI:
 
 You have to add email addresses and server settings in walog_send_email.m if you want to use the software.
 If you want to use the software scientifically, please contact us for possible collaborations in data usage.
