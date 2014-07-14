@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+
+	<Style id="bal">
+		<IconStyle>
+			<Icon>
+				<href><!-- #iconpath -->ferry.png</href>
+			</Icon>
+        </IconStyle>
+		<BalloonStyle>
+		<text><![CDATA[
+             		<b>$[name]</b>
+            		<br/>
+            		<br/>
+            		$[description]
+            		<br/>  
+        	]]></text>
+		</BalloonStyle> 
+	</Style>
+
+	<Style id="detection">
+		<IconStyle>
+			<colorMode>normal</colorMode>
+			<scale>0.4</scale>
+			<heading>0</heading>
+			<Icon>
+				<href><!-- #iconpath -->walog_detection_y.gif</href>
+			</Icon>
+			<hotSpot x="0.5"  y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[
+             			<b>$[name]</b>
+            			<br/>
+                		<br/>
+            			$[description]
+            			<br/>  
+	        	]]></text>
+		</BalloonStyle> 
+	</Style>
+
+	<Style id="comment">
+		<IconStyle>
+			<Icon>
+				<href><!-- #iconpath -->walog_comment.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<bgColor>ffffffff</bgColor>
+			<text><![CDATA[
+        	     		<b><font color="#CC0000" size="+3">$[name]</font></b>
+            			<br/><br/>
+            			<font face="Courier">$[description]</font>
+	            		<br/><br/>      
+        		]]></text>
+		</BalloonStyle> 
+	</Style>
+
+	<Style id="system-info">
+		<IconStyle>
+            <scale>0.4</scale>
+			<Icon>
+				<href><!-- #iconpath -->walog_system-info.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.4</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[
+             			<b><font color="#CC0000" size="+3">$[name]</font></b>
+            			<br/><br/>
+            			<font face="Courier">$[description]</font>
+            			<br/><br/>      
+        		]]></text>
+		</BalloonStyle> 
+	</Style>
+
+	<Style id="picture">
+		<IconStyle>
+            <scale>0.5</scale>
+			<Icon>
+				<href><!-- #iconpath -->walog_picture.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<bgColor>ffffffff</bgColor>
+			<text><![CDATA[
+             			<b><font color="#CC0000" size="+3">$[name]</font></b>
+            			<br/><br/>
+            			<font face="Courier">$[description]</font>
+            			<br/><br/>      
+        		]]></text>
+		</BalloonStyle> 
+	</Style>
+
+	<Style id="nopicture">
+		<IconStyle>
+            <scale>0.5</scale>
+			<Icon>
+				<href><!-- #iconpath -->walog_picture.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<bgColor>ffffffff</bgColor>
+			<text><![CDATA[
+             			<b><font color="#CC0000" size="+3">$[name]</font></b>
+            			<br/><br/>
+            			<font face="Courier">$[description]</font>
+            			<br/><br/>      
+        		]]></text>
+		</BalloonStyle> 
+	</Style>
+
+<!-- End of template -->

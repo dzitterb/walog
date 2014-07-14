@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLink>
+      <name>Walog ANT 26/1</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <refreshVisibility>0</refreshVisibility>
+      <flyToView>1</flyToView>
+      <Link>
+        <href>http://www.awi.de/fileadmin/user_upload/PALAOA/walog.kmz</href>
+      </Link>
+    </NetworkLink>
+</kml>

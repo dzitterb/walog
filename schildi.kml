@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Placemark id="41708">
+	<name>41708</name>
+	<Snippet maxLines="0"></Snippet>
+	<styleUrl>http://mw2.google.com/mw-ocean/ocean/kml/track/en/0/root.kmz#speciesLatest41708</styleUrl>
+	<ExtendedData>
+		<Data name="photoUrl">
+			<value>http://www.topp.org/sites/topp.org/files/species_blogs/above-turtle-blog_0.jpg</value>
+		</Data>
+		<Data name="fullTrackUrl">
+			<value>http://mw1.google.com/mw-ocean/ocean/media/track/files/41708_tour.kml</value>
+		</Data>
+		<Data name="fullTrackUrlSlow">
+			<value>http://mw1.google.com/mw-ocean/ocean/media/track/files/slow_41708.kml</value>
+		</Data>
+		<Data name="speed">
+		</Data>
+		<Data name="distance">
+		</Data>
+		<Data name="species">
+			<value>Leatherback Turtle</value>
+		</Data>
+		<Data name="learnMoreUrl">
+			<value>http://www.topp.org/species/leatherback_turtle</value>
+		</Data>
+		<Data name="pathUrl">
+			<value>http://mw1.google.com/mw-ocean/ocean/media/track/files/41708.kml</value>
+		</Data>
+		<Data name="individualName">
+			<value>41708</value>
+		</Data>
+		<Data name="speciesDesc">
+			<value>Turtles are very, very old. The ancestors of today&apos;s leatherbacks lived well before age of dinosaurs and remained turtles as their enormous cousins died off. Today, however, the clock is ticking for leatherback turtles, the world&apos;s most endangered sea turtle.  In the last three decades, 95 percent of the leatherbacks in the eastern Pacific Ocean have disappeared. The World Conservation Union (IUCN) lists leatherbacks as critically endangered. Their biggest threat: humans, who catch them accidentally in nets and on fishing lines, and who develop their nesting sites.</value>
+		</Data>
+		<Data name="depthGraph">
+			<value>900.0,878.0,863.0,874.0,861.0,870.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,900.0,879.0,820.0,792.0,820.0,808.0,900.0,900.0,853.0,812.0,816.0,832.0,828.0,900.0,900.0,900.0,900.0,900.0,900.0,873.0,820.0,780.0,808.0,820.0,900.0,900.0,884.0,784.0,800.0,784.0,788.0,900.0,900.0,882.0,792.0,792.0,800.0,873.0,900.0,900.0,884.0,820.0,824.0,884.0,890.0,900.0,900.0,900.0,881.0,869.0,861.0,863.0,882.0,900.0,900.0,881.0,874.0,873.0,872.0,881.0,900.0,900.0,900.0,900.0,900.0,839.0,808.0,808.0,824.0,869.0,900.0,900.0,839.0,800.0,792.0,812.0,851.0,900.0,900.0</value>
+		</Data>
+		<Data name="startDate">
+			<value>25-Jan-2004</value>
+		</Data>
+		<Data name="endDate">
+			<value>21-Jan-2005</value>
+		</Data>
+		<Data name="my_text">
+			<value><![CDATA[<div id="wrap"><img src="http://mw2.google.com/mw-ocean/ocean/media/track/en/icons/topp.png"><div id="header"><h1>$[species]</h1></div><div id="main"><img width="300" src="$[photoUrl]" alt="picture" /><p><font color="#7d7d7d">$[speciesDesc]... </font><a href="$[learnMoreUrl]">read more</a></p></div><div id="sidebar"><div class="rightlink"><h3>Tag Data:</h3><p>Tag</p><p>ID:$[individualName]</p><p>Depth Profile:</p><img src="http://chart.apis.google.com/chart?chds=0,900&chf=c,lg,90,ffffff,1.0,2d4d74,0|bg,s,f0f0f0&chco=000000&chs=120x70&chd=t:$[depthGraph]&cht=lc&chxt=y&chxl=0:|-900m|0m"></div><div class="rightlink"><h3>Track Data:</h3><p>Start: $[startDate]</p><p>End: $[endDate]</p><a href="$[pathUrl]"><font color="#2d4d74">See where I went</font></a></div><div class="rightlink highlight"><h3>Swim with me</h3><p><a href="$[fullTrackUrl]"><img src="http://mw2.google.com/mw-ocean/ocean/media/track/en/icons/playfast.png">Quickly</a></p><p><a href="$[fullTrackUrlSlow]"><img src="http://mw2.google.com/mw-ocean/ocean/media/track/en/icons/playslow.png">Slowly</a></p></div></div></div></div>]]></value>
+		</Data>
+	</ExtendedData>
+	<Point>
+		<coordinates>-95.8177,-16.5756,0</coordinates>
+	</Point>
+</Placemark>
+</kml>

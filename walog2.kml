@@ -1,0 +1,1155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>walog.kml</name>
+	<open>1</open>
+	<Style id="comment">
+		<IconStyle>
+			<Icon>
+				<href>http://ch5.de/walog/comment.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="bal">
+		<BalloonStyle>
+			<text><![CDATA[AWI OZA:<br></br>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="system-info">
+		<IconStyle>
+			<Icon>
+				<href>http://ch5.de/walog/system-info.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="picture">
+		<IconStyle>
+			<Icon>
+				<href>http://ch5.de/walog/picture.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_detection_y">
+		<IconStyle>
+			<scale>0.1</scale>
+			<Icon>
+				<href>http://ch5.de/walog/detection_y.gif</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="detection">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://ch5.de/walog/detection_y.gif</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.5</scale>
+		</LabelStyle>
+	</Style>
+	<Folder>
+		<name>Events</name>
+		<open>1</open>
+		<Placemark>
+			<name>2009-10-24 16:14:38</name>
+			<description>Species=Longfinned Pilot, Number=4, Certainity=sicher, event=detection</description>
+			<styleUrl>#detection</styleUrl>
+			<Point>
+				<coordinates>-13.08155,35.917117,0</coordinates>
+				<scale>0.1</scale>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:25:57</name>
+			<description>Species=other:Delphine, Number=&gt;10, Certainity=sicher, event=detection</description>
+			<styleUrl>#detection</styleUrl>
+			<Point>
+				<coordinates>-13.098917,35.883083,0</coordinates>
+				<scale>0.1</scale>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-28 16:19:40</name>
+			<description>Species=Orca, Number=3, Certainity=sicher, event=detection</description>
+			<styleUrl>#sn_detection_y</styleUrl>
+			<Point>
+				<coordinates>-16.588917,25.32835,0</coordinates>
+				<scale>0.1</scale>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-29 07:51:08</name>
+			<description>Species=other:other:Delphine, Number=6-9, Certainity=sicher, event=detection</description>
+			<styleUrl>#detection</styleUrl>
+			<Point>
+				<coordinates>-18.78475,23.403,0</coordinates>
+				<scale>0.1</scale>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Pictures</name>
+		<Placemark>
+			<name>2009-10-18 16:58:44</name>
+			<description>Filename=20091018-165939 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-3.791633,49.64040000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-18 16:59:16</name>
+			<description>Filename=20091018-170010 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-3.794017,49.6395,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-19 10:50:30</name>
+			<description>Filename=20091018-170010.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-6.934850000000001,47.5078,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-19 10:50:39</name>
+			<description>Filename=20091019-105132 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-6.934833,47.507817,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-19 10:51:35</name>
+			<description>Filename=20091019-105227 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-6.9348,47.50785000000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-20 13:14:07</name>
+			<description>Filename=20091020-131455 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-10.503217,43.998767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-20 13:14:25</name>
+			<description>Filename=20091020-131518 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-10.503217,43.99875,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-21 10:07:38</name>
+			<description>Filename=20091021-100822 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-10.986617,41.38325,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-21 10:08:38</name>
+			<description>Filename=20091021-100931 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-10.987167,41.380083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-21 10:09:11</name>
+			<description>Filename=20091021-101001 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-10.9876,41.37825,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-22 09:21:18</name>
+			<description>Filename=20091022-092205 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-12.1725,37.723767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-22 09:35:50</name>
+			<description>Filename=20091022-093646 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-12.194917,37.681467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-23 18:10:11</name>
+			<description>Filename=20091023-181100 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-12.942867,36.558117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-23 18:10:27</name>
+			<description>Filename=20091023-181118 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-12.9429,36.558117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-23 18:10:46</name>
+			<description>Filename=20091023-181137 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-12.942933,36.5581,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:12:39</name>
+			<description>Filename=20091024-161249 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.082233,35.915767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:12:43</name>
+			<description>Filename=20091024-161257 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.082317,35.9156,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:25:56</name>
+			<description>Filename=20091024-162648 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.1008,35.879367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:25:58</name>
+			<description>Filename=20091024-162648.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.100833,35.879333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:26:01</name>
+			<description>Filename=20091024-162648.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.100933,35.879133,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:26:03</name>
+			<description>Filename=20091024-162653 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.100967,35.87905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:26:11</name>
+			<description>Filename=20091024-162704 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.10115,35.878717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:26:14</name>
+			<description>Filename=20091024-162704.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.101217,35.878583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:26:35</name>
+			<description>Filename=20091024-162728 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.101667,35.87765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:26:57</name>
+			<description>Filename=20091024-162749 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.102167,35.876633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:27:03</name>
+			<description>Filename=20091024-162755 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.102317,35.87635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 16:27:06</name>
+			<description>Filename=20091024-162756 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-13.102333,35.876333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-28 07:27:18</name>
+			<description>Filename=20091028-072803 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-15.882867,26.6204,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-28 07:27:59</name>
+			<description>Filename=20091028-072847 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-15.883883,26.618567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-28 07:28:23</name>
+			<description>Filename=20091028-072911 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-15.884533,26.617417,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-28 07:40:16</name>
+			<description>Filename=20091028-074112 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-15.90295,26.584117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-30 06:48:36</name>
+			<description>Filename=20091028-074112.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-22.2783,20.5888,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-30 06:48:44</name>
+			<description>Filename=20091028-074112.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-22.278633,20.5885,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-30 18:53:27</name>
+			<description>Filename=20091030-185408 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000317,18.910783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-30 18:57:12</name>
+			<description>Filename=20091030-185752 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.0001,18.899467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-30 18:57:40</name>
+			<description>Filename=20091030-185820 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,18.898017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:43:07</name>
+			<description>Filename=20091031-074328 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08355,16.6381,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:43:41</name>
+			<description>Filename=20091031-074406 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08348300000001,16.63645,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:44:10</name>
+			<description>Filename=20091031-074436 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083433,16.635,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:44:36</name>
+			<description>Filename=20091031-074501 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083417,16.633783,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:44:53</name>
+			<description>Filename=20091031-074518 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083417,16.63295,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:45:05</name>
+			<description>Filename=20091031-074530 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083433,16.632433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:45:27</name>
+			<description>Filename=20091031-074552 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08345,16.6313,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:45:40</name>
+			<description>Filename=20091031-074604 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083467,16.630667,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:45:56</name>
+			<description>Filename=20091031-074620 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.0835,16.6299,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:46:09</name>
+			<description>Filename=20091031-074633 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083517,16.629267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:46:21</name>
+			<description>Filename=20091031-074646 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08355,16.628717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:46:34</name>
+			<description>Filename=20091031-074659 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083583,16.62805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:46:56</name>
+			<description>Filename=20091031-074720 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08365,16.627017,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:47:15</name>
+			<description>Filename=20091031-074738 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083717,16.6261,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:47:27</name>
+			<description>Filename=20091031-074753 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083733,16.625467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:47:41</name>
+			<description>Filename=20091031-074807 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08375,16.624733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 07:47:48</name>
+			<description>Filename=20091031-074814 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.08375,16.624333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 08:31:49</name>
+			<description>Filename=20091031-083245 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.083833,16.495283,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 05:44:41</name>
+			<description>Filename=20091101-054525 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.00025,13.147567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 05:49:26</name>
+			<description>Filename=20091024-162648 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.00043300000001,13.13515,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 12:26:45</name>
+			<description>Filename=20091101-122743 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-22.999983,12.07615,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:19:53</name>
+			<description>Filename=20091101-192005 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.0002,11.119683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:20:28</name>
+			<description>Filename=20091101-192041 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000267,11.11805,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:20:35</name>
+			<description>Filename=20091101-192046 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.0003,11.11765,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:21:01</name>
+			<description>Filename=20091101-192118 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000317,11.116383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:21:13</name>
+			<description>Filename=20091101-192128 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.0003,11.115833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:21:39</name>
+			<description>Filename=20091101-192159 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000283,11.11455,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 19:21:44</name>
+			<description>Filename=20091101-192205 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000267,11.114383,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 07:27:26</name>
+			<description>Filename=20091103-072821 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000383,5.756132999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 07:28:39</name>
+			<description>Filename=20091103-072934 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.00043300000001,5.753467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 07:29:57</name>
+			<description>Filename=20091031-074738 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000367,5.750716999999999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:30</name>
+			<description>Filename=20091031-074738.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.600833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:32</name>
+			<description>Filename=20091103-073123 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.600767,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:33</name>
+			<description>Filename=20091103-073123.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.600733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:34</name>
+			<description>Filename=20091103-073530 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.600733,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:34</name>
+			<description>Filename=20091103-082916 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.600683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:35</name>
+			<description>Filename=20091103-082922 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.60065,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:36</name>
+			<description>Filename=20091103-082925 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000133,5.600617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:37</name>
+			<description>Filename=20091103-082925.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:38</name>
+			<description>Filename=20091103-082926 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:39</name>
+			<description>Filename=20091103-082926.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600517,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:40</name>
+			<description>Filename=20091103-082926.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600483,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:41</name>
+			<description>Filename=20091103-082955 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600433,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:42</name>
+			<description>Filename=20091103-082958 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.6004,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:43</name>
+			<description>Filename=20091103-082958.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600367,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:44</name>
+			<description>Filename=20091103-082958.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600333,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:45</name>
+			<description>Filename=20091103-082959 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.6003,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:46</name>
+			<description>Filename=20091103-083020 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:47</name>
+			<description>Filename=20091103-083020.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:48</name>
+			<description>Filename=20091103-083020.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:49</name>
+			<description>Filename=20091103-083036 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600183,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:50</name>
+			<description>Filename=20091103-083110 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600117,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:51</name>
+			<description>Filename=20091103-083112 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.600083,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:52</name>
+			<description>Filename=20091103-083122 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.60005,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:53</name>
+			<description>Filename=20091103-083154 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.6,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:54</name>
+			<description>Filename=20091103-083154.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599967,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:55</name>
+			<description>Filename=20091103-083154.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599933,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:56</name>
+			<description>Filename=20091103-083158 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.5999,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:57</name>
+			<description>Filename=20091103-083158.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599867,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:58</name>
+			<description>Filename=20091103-083158.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:41:59</name>
+			<description>Filename=20091103-083209 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.5998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:00</name>
+			<description>Filename=20091103-083209.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.5998,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:01</name>
+			<description>Filename=20091103-083253 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599717,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:02</name>
+			<description>Filename=20091103-083253.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:03</name>
+			<description>Filename=20091103-083253.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.59965,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:04</name>
+			<description>Filename=20091103-083255 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:05</name>
+			<description>Filename=20091103-083255.1 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599583,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:06</name>
+			<description>Filename=20091103-083255.2 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599533,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:07</name>
+			<description>Filename=20091103-083256 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.5995,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:08</name>
+			<description>Filename=20091103-083301 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.000117,5.599467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 08:42:09</name>
+			<description>Filename=20091103-083308 MAPS Foto.jpg, event=picture</description>
+			<styleUrl>#picture</styleUrl>
+			<Point>
+				<coordinates>-23.0001,5.599433,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Comments</name>
+		<Placemark>
+			<name>2009-10-16 14:57:47</name>
+			<description>event=comment, comment=final test; we are leaving now!</description>
+			<styleUrl>#comment</styleUrl>
+			<Point>
+				<coordinates>8.555249999999999,53.567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-20 08:12:35</name>
+			<description>event=comment, comment=blow</description>
+			<styleUrl>#comment</styleUrl>
+			<Point>
+				<coordinates>-9.963167,44.551217,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>System Information</name>
+		<Placemark>
+			<name>2009-10-17 00:00:00</name>
+			<description>Systeminfo Diskfree: 138.341.195.776 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>7.643567,54.01633300000001,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-18 00:00:00</name>
+			<description>Systeminfo Diskfree: 138.335.543.296 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>1.6739,51.169267,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-19 00:00:00</name>
+			<description>Systeminfo Diskfree: 138.325.315.584 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-5.893550000000001,48.770917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-20 00:00:00</name>
+			<description>Systeminfo Diskfree: 138.312.237.056 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-8.759733000000001,45.7458,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-21 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.384.142.336 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-10.680033,43.339833,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-22 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.361.102.336 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-11.33005,39.369633,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-23 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.352.123.904 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-12.488033,37.16445,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-24 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.333.523.968 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-12.98295,36.5221,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-25 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.283.544.576 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-13.24725,35.5898,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-26 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.283.053.056 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-13.3155,32.518683,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-27 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.283.155.456 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-14.928967,29.089617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-28 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.283.302.912 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-15.278833,27.891617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-29 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.262.200.320 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-17.61165,24.33505,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-30 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.261.192.704 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-21.245417,21.426467,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-10-31 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.238.468.096 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-23.000167,17.989217,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-01 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.177.650.688 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-23.000117,14.083233,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-02 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.399.531.008 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-22.999983,10.372567,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-03 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.400.137.216 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-23.000217,6.760917,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-04 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.304.942.080 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-23.0004,3.723617,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>2009-11-05 00:00:01</name>
+			<description>Systeminfo Diskfree: 138.304.532.480 Bytes frei</description>
+			<styleUrl>#system-info</styleUrl>
+			<Point>
+				<coordinates>-23.000133,1.09105,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+	<Placemark>
+		<name>RV Polarstern Track</name>
+		<description>RV Polarstern track</description>
+		<LineString>
+			<tessellate>1</tessellate>
+			<coordinates>
+8.555249999999999,53.566983,0 8.555267000000001,53.566983,0 8.555267000000001,53.566983,0 8.555249999999999,53.567,0 8.555249999999999,53.567,0 8.555249999999999,53.567,0 8.555232999999999,53.567,0 8.555232999999999,53.567,0 8.555232999999999,53.567,0 8.555249999999999,53.567,0 8.555232999999999,53.566983,0 8.555232999999999,53.567,0 8.555232999999999,53.567,0 8.555232999999999,53.567,0 8.5495,53.56935000000001,0 8.425649999999999,53.641967,0 8.177016999999999,53.769383,0 7.865983,53.872733,0 7.643567,54.01633300000001,0 7.478467,54.20375000000001,0 7.080183,54.199183,0 6.673783,54.19024999999999,0 6.275367,54.17655,0 5.897883,54.14728300000001,0 5.5372,54.119367,0 5.5372,54.119367,0 5.5372,54.119367,0 5.18015,54.0916,0 4.83145,54.067483,0 4.455817,54.036883,0 4.124817,53.920717,0 3.80435,53.77925,0 3.600467,53.591633,0 3.491533,53.37895,0 3.388583,53.17720000000001,0 3.29045,52.9838,0 3.151567,52.79423299999999,0 2.9854,52.60033300000001,0 2.807717,52.39205,0 2.6622,52.15606699999999,0 2.569233,51.900833,0 2.303167,51.69785,0 2.0409,51.50749999999999,0 1.8425,51.324567,0 1.6739,51.169267,0 1.481667,51.040283,0 1.250433,50.89426700000001,0 0.940567,50.765633,0 0.60755,50.627017,0 0.22505,50.55070000000001,0 -0.131733,50.484583,0 -0.131733,50.484583,0 -0.131733,50.484583,0 -0.4478500000000001,50.42605,0 -0.721367,50.3753,0 -0.985783,50.32613300000001,0 -1.276483,50.272083,0 -1.616283,50.208767,0 -2.006567,50.136167,0 -2.43665,50.0556,0 -2.858267,49.976667,0 -3.221417,49.864783,0 -3.521783,49.74296700000001,0 -3.791633,49.64040000000001,0 -3.794017,49.6395,0 -3.7973,49.638267,0 -4.06565,49.537617,0 -4.346167,49.43119999999999,0 -4.655833,49.31900000000001,0 -4.981583,49.20089999999999,0 -5.31875,49.0741,0 -5.6614,48.943233,0 -5.893550000000001,48.770917,0 -6.038483000000001,48.6078,0 -6.168517,48.449833,0 -6.292599999999999,48.29840000000001,0 -6.414183,48.14896700000001,0 -6.541067,47.993167,0 -6.677299999999999,47.825483,0 -6.677299999999999,47.825483,0 -6.677299999999999,47.825483,0 -6.820983,47.64785,0 -6.933117,47.508583,0 -6.932483,47.509167,0 -6.932233000000001,47.509983,0 -6.934850000000001,47.5078,0 -6.934833,47.507817,0 -6.9348,47.50785000000001,0 -6.934983,47.508683,0 -6.971733000000001,47.479683,0 -7.116783,47.3344,0 -7.2728,47.184967,0 -7.421199999999999,47.043317,0 -7.56725,46.903233,0 -7.721066999999999,46.755383,0 -7.872949999999999,46.60895,0 -8.033533,46.4538,0 -8.2018,46.310867,0 -8.350717,46.15785,0 -8.49395,46.01035,0 -8.628617,45.874183,0 -8.759733000000001,45.7458,0 -8.894183,45.61365000000001,0 -9.034283,45.47598300000001,0 -9.184633,45.327633,0 -9.338733,45.1746,0 -9.492667000000001,45.022567,0 -9.647266999999999,44.868667,0 -9.647266999999999,44.868667,0 -9.647266999999999,44.868667,0 -9.761782999999999,44.754133,0 -9.761782999999999,44.754133,0 -9.79335,44.722733,0 -9.935267,44.580283,0 -9.964867,44.54945,0 -10.030567,44.483317,0 -10.030567,44.483317,0 -10.030567,44.483317,0 -10.030567,44.483317,0 -10.223233,44.290267,0 -10.367417,44.146317,0 -10.51075,44.00575,0 -10.502317,43.999917,0 -10.503217,43.998767,0 -10.503217,43.99875,0 -10.5031,43.9986,0 -10.5031,43.9986,0 -10.5031,43.9986,0 -10.502067,43.997933,0 -10.50335,43.994083,0 -10.50495,43.99145,0 -10.514333,43.994567,0 -10.518783,43.997267,0 -10.53515,44.001683,0 -10.535633,44.009367,0 -10.56835,43.90665,0 -10.6003,43.720117,0 -10.633283,43.52825,0 -10.680033,43.339833,0 -10.710867,43.1477,0 -10.741967,42.953683,0 -10.775417,42.760583,0 -10.80325,42.569833,0 -10.832183,42.380767,0 -10.861317,42.1969,0 -10.861317,42.1969,0 -10.861317,42.1969,0 -10.890983,42.007967,0 -10.922583,41.808067,0 -10.953317,41.609117,0 -10.982033,41.40825,0 -10.986617,41.38325,0 -10.987167,41.380083,0 -10.9876,41.37825,0 -11.014683,41.2163,0 -11.044483,41.0216,0 -11.073067,40.838483,0 -11.098467,40.671767,0 -11.125283,40.4976,0 -11.152367,40.3203,0 -11.178817,40.148667,0 -11.2006,40.000967,0 -11.185667,40.008367,0 -11.182467,40.022767,0 -11.215967,39.903633,0 -11.24365,39.72135,0 -11.270867,39.541483,0 -11.33005,39.369633,0 -11.41795,39.199183,0 -11.50745,39.025917,0 -11.599917,38.8458,0 -11.6932,38.6645,0 -11.777083,38.481767,0 -11.873483,38.312133,0 -11.873483,38.312133,0 -11.873483,38.312133,0 -11.96235,38.137483,0 -12.01395,38.0363,0 -12.01395,38.0363,0 -12.05195,37.96135,0 -12.141,37.785917,0 -12.1725,37.723767,0 -12.194917,37.681467,0 -12.2319,37.61235,0 -12.3209,37.445083,0 -12.404783,37.28755,0 -12.408633,37.294483,0 -12.4061,37.299567,0 -12.40305,37.304467,0 -12.396883,37.307417,0 -12.39035,37.304767,0 -12.389417,37.300983,0 -12.3884,37.295533,0 -12.391717,37.2933,0 -12.393867,37.295467,0 -12.392183,37.302717,0 -12.40195,37.28815,0 -12.488033,37.16445,0 -12.581867,37.036267,0 -12.710917,36.8755,0 -12.83975,36.714133,0 -12.960717,36.562667,0 -12.98595,36.5327,0 -12.9847,36.5283,0 -12.9847,36.5283,0 -12.9847,36.5283,0 -12.99155,36.523933,0 -12.9836,36.527083,0 -12.98675,36.526283,0 -12.98685,36.521783,0 -12.985833,36.5205,0 -12.987233,36.52225,0 -12.986533,36.522833,0 -12.938517,36.56235,0 -12.92225,36.574917,0 -12.90755,36.584067,0 -12.894233,36.58655,0 -12.94225,36.558183,0 -12.942867,36.558117,0 -12.9429,36.558117,0 -12.942933,36.5581,0 -12.944733,36.55725,0 -12.9838,36.528383,0 -12.987167,36.5222,0 -12.9898,36.519183,0 -12.978267,36.51835,0 -12.98295,36.5221,0 -12.999217,36.5244,0 -12.946367,36.507117,0 -13.023417,36.507133,0 -12.97405,36.521383,0 -13.02715,36.524133,0 -12.946883,36.5057,0 -12.946883,36.5057,0 -12.946883,36.5057,0 -12.974867,36.516983,0 -12.983467,36.527333,0 -12.98535,36.517433,0 -12.980867,36.508117,0 -12.97235,36.50485,0 -12.854017,36.529583,0 -12.823433,36.4286,0 -12.905417,36.266067,0 -12.987217,36.105117,0 -13.0658,35.948683,0 -13.082233,35.915767,0 -13.082317,35.9156,0 -13.085083,35.9104,0 -13.1008,35.879367,0 -13.1008,35.879367,0 -13.100833,35.879333,0 -13.100933,35.879133,0 -13.100967,35.87905,0 -13.10115,35.878717,0 -13.101217,35.878583,0 -13.101667,35.87765,0 -13.102167,35.876633,0 -13.102317,35.87635,0 -13.102333,35.876333,0 -13.14545,35.789933,0 -13.225967,35.629467,0 -13.284533,35.464867,0 -13.244483,35.592317,0 -13.291967,35.453217,0 -13.240733,35.594067,0 -13.289783,35.45575,0 -13.24725,35.5898,0 -13.2866,35.457383,0 -13.24885,35.5847,0 -13.285233,35.442967,0 -13.351,35.2412,0 -13.412217,35.034517,0 -13.472133,34.8315,0 -13.472133,34.8315,0 -13.472133,34.8315,0 -13.5318,34.6294,0 -13.589267,34.435317,0 -13.633833,34.283233,0 -13.642483,34.129733,0 -13.600617,33.976883,0 -13.5605,33.822883,0 -13.516733,33.678783,0 -13.515733,33.679433,0 -13.482067,33.571933,0 -13.443033,33.415983,0 -13.39615,33.238117,0 -13.344817,33.0639,0 -13.3043,32.9261,0 -13.280167,32.829733,0 -13.20185,32.759383,0 -13.20675,32.81705,0 -13.2328,32.69425,0 -13.3155,32.518683,0 -13.38115,32.3376,0 -13.464533,32.163783,0 -13.5499,31.987233,0 -13.634867,31.811517,0 -13.72,31.63485,0 -13.802917,31.461883,0 -13.802917,31.461883,0 -13.802917,31.461883,0 -13.8838,31.293717,0 -13.96475,31.12515,0 -14.043567,30.96045,0 -14.123183,30.793383,0 -14.20565,30.62055,0 -14.286867,30.449183,0 -14.3571,30.28925,0 -14.36165,30.270567,0 -14.437167,30.132733,0 -14.4938,30.013617,0 -14.548367,29.89835,0 -14.601733,29.7851,0 -14.654433,29.67325,0 -14.7082,29.5595,0 -14.764467,29.439933,0 -14.821767,29.318,0 -14.875867,29.203033,0 -14.928967,29.089617,0 -14.983917,28.973,0 -15.039483,28.853983,0 -15.095633,28.7344,0 -15.15085,28.616083,0 -15.203483,28.502817,0 -15.262467,28.377117,0 -15.262467,28.377117,0 -15.262467,28.377117,0 -15.320767,28.25125,0 -15.360417,28.160667,0 -15.374067,28.16868300000001,0 -15.388883,28.118017,0 -15.424633,28.140417,0 -15.424633,28.14045,0 -15.42465,28.140417,0 -15.424633,28.140467,0 -15.424633,28.140467,0 -15.42465,28.14045,0 -15.424617,28.14045,0 -15.41765,28.130883,0 -15.41765,28.130867,0 -15.41765,28.13085,0 -15.417633,28.130833,0 -15.41765,28.130867,0 -15.314317,28.073017,0 -15.278833,27.891617,0 -15.2828,27.708583,0 -15.3797,27.533167,0 -15.4703,27.36915,0 -15.562617,27.202483,0 -15.657133,27.0308,0 -15.7515,26.859817,0 -15.7515,26.859817,0 -15.7515,26.859817,0 -15.841867,26.694817,0 -15.882867,26.6204,0 -15.883883,26.618567,0 -15.884533,26.617417,0 -15.90295,26.584117,0 -15.932767,26.529867,0 -16.0227,26.365917,0 -16.11355,26.200267,0 -16.202367,26.037567,0 -16.288467,25.88003300000001,0 -16.368917,25.727433,0 -16.379967,25.71120000000001,0 -16.470267,25.546133,0 -16.560667,25.38,0 -16.589133,25.328017,0 -16.6468,25.221433,0 -16.733683,25.061417,0 -16.864283,24.925233,0 -17.0197,24.808367,0 -17.167067,24.68645,0 -17.314983,24.56955,0 -17.462467,24.452783,0 -17.61165,24.33505,0 -17.759233,24.218383,0 -17.907083,24.100917,0 -18.058217,23.981017,0 -18.2065,23.862983,0 -18.354633,23.745583,0 -18.50545,23.625517,0 -18.50545,23.625517,0 -18.50545,23.625517,0 -18.658833,23.50285,0 -18.788917,23.399583,0 -18.810867,23.382317,0 -18.958333,23.262983,0 -19.110717,23.1424,0 -19.260333,23.0231,0 -19.4141,22.899717,0 -19.5668,22.77766700000001,0 -19.717717,22.657033,0 -19.870817,22.533883,0 -20.026317,22.409333,0 -20.18015,22.2858,0 -20.331217,22.16385,0 -20.48215,22.042733,0 -20.63435,21.92005,0 -20.786533,21.797183,0 -20.938717,21.674517,0 -21.0932,21.549383,0 -21.245417,21.426467,0 -21.397567,21.303017,0 -21.548667,21.1808,0 -21.698467,21.05935,0 -21.848633,20.9379,0 -22.001167,20.813717,0 -22.152367,20.69075,0 -22.152367,20.69075,0 -22.152367,20.69075,0 -22.2783,20.5888,0 -22.278633,20.5885,0 -22.308067,20.564433,0 -22.46115,20.43955,0 -22.6128,20.319917,0 -22.763083,20.196133,0 -22.915533,20.06945,0 -23.000267,19.91835,0 -22.997717,19.738483,0 -22.997267,19.73355,0 -23.000367,19.6186,0 -23.000333,19.43555,0 -23.000417,19.25045,0 -23.000167,19.071617,0 -23.000317,18.910783,0 -23.0001,18.899467,0 -23.000133,18.898017,0 -23.0004,18.890767,0 -23.000417,18.711167,0 -23.000467,18.5277,0 -23.000217,18.3454,0 -23.000417,18.1685,0 -23.000167,17.989217,0 -23.000133,17.8098,0 -23.000367,17.631867,0 -23.00015,17.45165,0 -23.00025,17.26855,0 -23.003983,17.08915,0 -23.00395,16.912833,0 -23.00395,16.912833,0 -23.00395,16.912833,0 -23.0834,16.763567,0 -23.08355,16.6381,0 -23.08348300000001,16.63645,0 -23.083433,16.635,0 -23.083417,16.633783,0 -23.083417,16.63295,0 -23.083433,16.632433,0 -23.08345,16.6313,0 -23.083467,16.630667,0 -23.0835,16.6299,0 -23.083517,16.629267,0 -23.08355,16.628717,0 -23.083583,16.62805,0 -23.08365,16.627017,0 -23.083717,16.6261,0 -23.083733,16.625467,0 -23.08375,16.624733,0 -23.08375,16.624333,0 -23.083467,16.587583,0 -23.083833,16.495283,0 -23.083783,16.414267,0 -23.083517,16.233733,0 -23.0838,16.048933,0 -23.047667,15.880867,0 -22.997317,15.72475,0 -22.999783,15.716867,0 -23.0003,15.555467,0 -23.000283,15.3917,0 -23.000133,15.224917,0 -22.99985,15.05755,0 -23.000317,14.8915,0 -23.00035,14.728583,0 -23.000317,14.56425,0 -23.000067,14.404533,0 -23.00043300000001,14.245167,0 -23.000117,14.083233,0 -23.000483,13.915483,0 -23.00035,13.752217,0 -23.000383,13.588183,0 -23.0002,13.426583,0 -23.0003,13.267583,0 -23.00025,13.147567,0 -23.00043300000001,13.13515,0 -23.0002,13.107783,0 -23.0002,13.107783,0 -23.0002,13.107783,0 -23.000067,12.94825,0 -23.00043300000001,12.7872,0 -23.00043300000001,12.6252,0 -23.000383,12.550933,0 -23.000383,12.550933,0 -23.0015,12.463383,0 -22.99955,12.3087,0 -23.000083,12.14915,0 -22.999983,12.07615,0 -23.00015,11.9848,0 -22.9968,11.828833,0 -22.997417,11.825367,0 -23.000167,11.66395,0 -23.00045,11.498783,0 -23.000183,11.336067,0 -23.000283,11.17355,0 -23.0002,11.119683,0 -23.000267,11.11805,0 -23.0003,11.11765,0 -23.000317,11.116383,0 -23.0003,11.115833,0 -23.000283,11.11455,0 -23.000267,11.114383,0 -23.000283,11.008217,0 -23.00045,10.846617,0 -23.00005000000001,10.686467,0 -23.00045,10.5321,0 -22.999983,10.372567,0 -23,10.209217,0 -23.002933,10.046783,0 -23.001583,10.00305,0 -23.000383,9.846283,0 -23.000267,9.695033000000001,0 -23.000383,9.539016999999999,0 -23.000383,9.539016999999999,0 -23.000383,9.539016999999999,0 -23.000133,9.384017,0 -22.999967,9.226516999999999,0 -23.000083,9.068667,0 -23.000067,8.909283,0 -22.9983,8.741300000000001,0 -23.000367,8.5708,0 -23.000383,8.398533000000001,0 -22.9967,8.23645,0 -23.000117,8.084066999999999,0 -23.000083,7.914083,0 -23.000417,7.744566999999999,0 -23.000183,7.58325,0 -23.0004,7.445183,0 -23.000133,7.307317,0 -23.00035,7.1699,0 -23.000133,7.0316,0 -23.0004,6.896483,0 -23.000217,6.760917,0 -23.0004,6.622249999999999,0 -23.000317,6.482183,0 -23.000117,6.343833,0 -23.000317,6.210083,0 -23.000367,6.07965,0 -23.0002,5.9485,0 -23.0002,5.9485,0 -23.0002,5.9485,0 -23.000267,5.816550000000001,0 -23.0002,5.76285,0 -23.0002,5.76285,0 -23.000383,5.756132999999999,0 -23.00043300000001,5.753467,0 -23.000367,5.750716999999999,0 -23.000133,5.600833,0 -23.000133,5.600833,0 -23.000133,5.600767,0 -23.000133,5.600833,0 -23.000133,5.600733,0 -23.000133,5.600733,0 -23.000133,5.600683,0 -23.000133,5.60065,0 -23.000133,5.600617,0 -23.000117,5.600583,0 -23.000117,5.600583,0 -23.000117,5.600517,0 -23.000117,5.600483,0 -23.000117,5.600433,0 -23.000117,5.6004,0 -23.000117,5.600367,0 -23.000117,5.600333,0 -23.000117,5.6003,0 -23.000117,5.600267,0 -23.000117,5.600217,0 -23.000117,5.600183,0 -23.000117,5.600183,0 -23.000117,5.600117,0 -23.000117,5.600083,0 -23.000117,5.60005,0 -23.000117,5.6,0 -23.000117,5.599967,0 -23.000117,5.599933,0 -23.000117,5.5999,0 -23.000117,5.599867,0 -23.000117,5.599833,0 -23.000117,5.5998,0 -23.000117,5.5998,0 -23.000117,5.599717,0 -23.000117,5.599683,0 -23.000117,5.59965,0 -23.000117,5.599617,0 -23.000117,5.599583,0 -23.000117,5.599533,0 -23.000117,5.5995,0 -23.000117,5.599467,0 -23.0001,5.599433,0 -23.000283,5.560633,0 -23.000733,5.430083,0 -23.000217,5.301167,0 -23.00035,5.172833,0 -23.00015,5.04155,0 -23.00043300000001,4.914483,0 -23.004783,4.897367,0 -23.000167,4.76805,0 -23.00035,4.640133,0 -23.000033,4.507617,0 -23.000167,4.3767,0 -23.00043300000001,4.245633,0 -23.00015,4.114283,0 -23.000367,3.986833,0 -23.000317,3.85605,0 -23.0004,3.723617,0 -23.000267,3.590683,0 -23.00035,3.454983,0 -23.000167,3.3197,0 -23.000167,3.188433,0 -23.000183,3.052617,0 -23.000133,2.918667,0 -23.000133,2.918667,0 -23.000133,2.918667,0 -23.000467,2.78745,0 -22.999917,2.659433,0 -22.998617,2.573883,0 -22.997733,2.573733,0 -22.99965,2.57415,0 -23.000633,2.57455,0 -22.99945,2.575117,0 -22.992567,2.5652,0 -23.0002,2.534883,0 -23.0004,2.375283,0 -22.999967,2.263333,0 -23.000317,2.086433,0 -23.0002,1.9059,0 -23.000417,1.72485,0 -23.00035,1.54245,0 -23.000367,1.3853,0 -23.000233,1.23805,0 -23.000133,1.09105,0 -23.0001,0.946467,0 -23.000183,0.841417,0 -23.0002,0.730683,0 -23.000167,0.6175000000000001,0 -23.00005000000001,0.506217,0 -23.00015,0.394533,0 </coordinates>
+		</LineString>
+	</Placemark>
+</Document>
+</kml>

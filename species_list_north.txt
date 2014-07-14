@@ -1,0 +1,39 @@
+1,Fin,Balaenoptera physalus
+1,Minke,Balaenoptera acutorostrata
+1,Hback,Megaptera novaeangliae
+1,Blue,Balaenoptera musculus
+1,Bhead,Balaena mysticetus
+1,Sperm,Physeter macrocephalus
+1,Orca,Orcinus orca
+1,Lf-Pilot,Globicephala melas
+1,Nright,Eubalaena glacialis
+1,Sei,Balaenoptera borealis
+1,undef,unidentified whale
+1,large,unidentified large whale
+1,small,unidentified small whale
+1,N bottleN,Hyperoodon ampullatus
+1,Dolphin,unidentified dolphin
+1,Baleen whale,unidentified baleen whale 
+1,Beluga,Delphinapterus leucas
+1,Narwahl,Monodon monocerus
+1,Atlantic white-sided dolphin,Lagenorhynchus acutus
+1,White-beaked dolphin,Lagenorhynchus albirostris
+1,Common dolphin,Delphinus delphis
+1,Harbour porpoise,Phocoena phocoena
+1,Bottlenose dolphin,Tursiops truncatus
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
